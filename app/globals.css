@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-100 antialiased;
+}
+
+.blog-content h1 {
+  @apply text-3xl font-bold mb-6 mt-10;
+}
+
+.blog-content h2 {
+  @apply text-2xl font-semibold mt-10 mb-4;
+}
+
+.blog-content p {
+  @apply text-white/70 leading-relaxed mb-6;
+}
+
+.blog-content ul {
+  @apply list-disc pl-6 text-white/70 mb-6;
+}
+
+.blog-content li {
+  @apply mb-2;
+}
+
+.blog-content strong {
+  @apply text-white;
+}
