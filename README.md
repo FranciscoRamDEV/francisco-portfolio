@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Francisco — Software Developer Portfolio
 
-## Getting Started
+Portfolio profesional desarrollado con Next.js 14, TypeScript y TailwindCSS.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+👉 https://francisco-portfolio-sooty.vercel.app/
+
+---
+
+## 🧠 Sobre el proyecto
+
+Este portfolio fue construido con un enfoque minimalista y profesional,
+priorizando rendimiento, claridad arquitectónica y escalabilidad.
+
+Incluye:
+
+- Página principal de presentación
+- Sección de proyectos técnicos
+- Blog técnico
+- Página "Now" (enfoque actual)
+- Rutas dinámicas para proyectos
+- Animaciones suaves con componente Reveal
+- SEO básico configurado
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- Next.js 14 (App Router)
+- TypeScript
+- TailwindCSS
+- Vercel (deploy)
+- GitHub (versionado)
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+app/
+  page.tsx
+  projects/
+  blog/
+  now/
+components/
+lib/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Arquitectura orientada a claridad y separación de responsabilidades.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Instalación Local
 
-## Learn More
+```bash
+git clone https://github.com/FranciscoRamDEV/francisco-portfolio
+cd francisco-portfolio
+npm install
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📈 Objetivo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto refleja mi evolución como desarrollador backend orientado
+a arquitectura limpia, diseño de APIs y sistemas escalables.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LinkedIn: https://www.linkedin.com/in/francisco-ram%C3%ADrez-582384274/
+Email: ramirezmedina.dev@gmail.com
