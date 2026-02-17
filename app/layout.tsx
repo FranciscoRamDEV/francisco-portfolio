@@ -10,17 +10,29 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: "Francisco | Software Developer",
-    template: "%s | Francisco",
+    template: "%s | Francisco"
   },
   description:
-    "Portfolio de desarrollo enfocado en backend, arquitectura limpia y sistemas escalables.",
+    "Software developer especializado en backend, arquitectura limpia y sistemas escalables.",
+  keywords: [
+    "Software Developer",
+    "Backend Developer",
+    "Next.js",
+    "TypeScript",
+    "Arquitectura limpia",
+    "APIs REST"
+  ],
+  authors: [{ name: "Francisco" }],
   openGraph: {
     title: "Francisco | Software Developer",
     description:
-      "Proyectos y documentación técnica sobre backend y arquitectura.",
+      "Portfolio profesional enfocado en backend y arquitectura escalable.",
+    url: "https://francisco-portfolio-sooty.vercel.app/",
+    siteName: "Francisco Portfolio",
+    locale: "es_CL",
     type: "website",
   },
 }

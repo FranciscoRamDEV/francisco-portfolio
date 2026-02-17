@@ -13,8 +13,8 @@ export default function Contact() {
       </p>
 
       <div className="space-y-2 text-neutral-300">
-        <p>Email: francisco.dev@example.com</p>
-        <p>GitHub: github.com/tuusuario</p>
+        <p>Email: ramirezmedina.dev@gmail.com</p>
+        <p>GitHub: github.com/FranciscoRamDEV</p>
         <p>LinkedIn: linkedin.com/in/tuusuario</p>
       </div>
     </main>
