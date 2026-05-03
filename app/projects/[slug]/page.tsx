@@ -93,7 +93,6 @@ export default async function ProjectPage({
         </div>
       </div>
 
-
       {/* Contenido */}
       <div className="space-y-4">
         {project.content.split("\n").map((line, index) => {

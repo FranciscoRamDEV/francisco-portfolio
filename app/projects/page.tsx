@@ -32,7 +32,7 @@ export default function ProjectsPage() {
               <Link
                 key={project.slug}
                 href={`/projects/${project.slug}`}
-                className="group border border-white/10 rounded-2xl p-6 bg-white/[0.02] hover:border-white/20 hover:-translate-y-1 transition-all duration-300"
+                className="group border border-white/10 rounded-2xl p-6 bg-white/2 hover:border-white/20 hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold mb-3">
                   {project.title}

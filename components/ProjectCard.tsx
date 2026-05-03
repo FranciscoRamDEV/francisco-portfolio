@@ -1,6 +1,3 @@
-import Link from "next/link"
-
-
 type ProjectCardProps = {
   title: string;
   description: string;
@@ -19,8 +16,7 @@ export default function ProjectCard({
       <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-500 bg-linear-to-br from-white/5 via-transparent  to-transparent pointer-events-none" />
 
       {/* Contenido */}
-      <Link href="/projects/expense-manager-pro" className="...">
-
+      <div className="relative z-10">
         <h3 className="text-xl font-semibold text-white mb-2">
           Expense Manager Pro
         </h3>
@@ -44,7 +40,7 @@ export default function ProjectCard({
         <div className="text-sm text-white/40 group-hover:text-white/70 transition">
           Ver proyecto →
         </div>
-      </Link>
+      </div>
     </div>
   );
 }

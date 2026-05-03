@@ -15,8 +15,9 @@ export default function Contact() {
       <div className="space-y-2 text-neutral-300">
         <p>Email: ramirezmedina.dev@gmail.com</p>
         <p>GitHub: github.com/FranciscoRamDEV</p>
-        <p>LinkedIn: linkedin.com/in/tuusuario</p>
+        <p>LinkedIn:linkedin.com/in/francisco-ramírez-582384274</p>
       </div>
     </main>
   );
 }
+
